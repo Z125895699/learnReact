@@ -7,8 +7,8 @@ import CounterHook from '../src/01_体验hooks/02_counter_hook';
 // import CounterClass from './01_体验hooks/01_counter_class';
 import Class from './03_useEffect使用/02_class使用';
 import CllbackHookDemo01 from './05_usecallback使用/01_usecallback不能进行性能优化';
-
 import Example from './03_useEffect使用/01_useEffect使用';
+import RefHookDemo01 from './07_useRef使用/01_useRef引用DOM';
 
 export default function App() {
   return (
@@ -20,7 +20,8 @@ export default function App() {
       {/* <CounterClass></CounterClass> */}
       {/* <Example></Example> */}
       {/* <Class></Class> */}
-      <CllbackHookDemo01></CllbackHookDemo01>
+      {/* <CllbackHookDemo01></CllbackHookDemo01> */}
+      <RefHookDemo01></RefHookDemo01>
     </div>
   );
 }
